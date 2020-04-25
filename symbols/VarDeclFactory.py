@@ -11,6 +11,8 @@ class VarDeclFactory:
 			return None
 
 		ident = TerminalFactory.makeSymbol(Token.ID)
+		if ident == None:
+			return None
 
 		varDeclDash = VarDeclDashFactory.makeSymbol()
 		if varDeclDash:
