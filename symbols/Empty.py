@@ -1,8 +1,8 @@
 from tokens.tokenizer import TokensRepo
 
 class Symbol:
-	def print(self):
-		return
+	def print(self, level = 0):
+		print("---"*level+"-> Empty")
 
 class Factory:
 	def makeSymbol():
