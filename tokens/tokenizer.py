@@ -17,6 +17,7 @@ class Token():
     RIGHT_CURLY_B = "RIGHT_CURLY_B"
     FOR = "FOR"
     RETURN = "RETURN"
+    BREAK = "BREAK"
     def __init__(self, name, value):
         super().__init__()
         self.name = name
